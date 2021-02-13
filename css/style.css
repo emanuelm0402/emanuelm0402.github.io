@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'open sans';
+    font-size: 16px;
+}
+
+header{
+    width: 100%;
+    height: 650px;
+    background: -webkit-linear-gradient(to right, hsla(207, 82%, 31%, 0.603), hsla(0, 0%, 0%, 0.603)),  url(../img/emile-perron-xrVDYZRGdw4-unsplash.jpg);
+    background: linear-gradient(to right, hsla(207, 82%, 31%, 0.603), hsla(0, 0%, 0%, 0.603)), url(../img/emile-perron-xrVDYZRGdw4-unsplash.jpg); 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+
+header .textos{
+    margin-top: 152px;
+}
+
+header .titulo{
+    font-size: 85px;
+}
+
+header .subtitulo{
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+header .boton{
+    display: inline-block;
+    border: 1px solid white;
+    padding: 6px ;
+    text-decoration: none;
+    width: 128px;
+    border-radius: 16px;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    cursor: pointer;
+}
+
+header .boton:hover{
+    background: white;
+    color: hsla(207, 82%, 31%);
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 0 52px 0 ;
+  
+}
+
+.sobre-nosotros{
+    padding: 50px;
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    height: auto;
+}
+
+.slogan{
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.parrafo{
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 24px;
+    color: rgb(24, 16, 16);
+}
+
+.acerca-de .boton{
+    display: inline-block;
+    border: 1px solid rgb(24, 16, 16, .7);
+    padding: 6px ;
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: none;
+    width: 128px;
+    border-radius: 16px;
+    color: rgb(24, 16, 16);
+    font-size: 19px;
+    text-align: center;
+    margin-top: 24px;
+    cursor: pointer;
+}
+.acerca-de .boton:hover{
+    background:  hsla(207, 82%, 31%);
+    color: white;
+}
+
+.galeria{
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+
+}
+
+.imagenes{
+    width: 20%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imagenes img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.encima{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(52, 73, 94, 0.6);
+}
+
+.encima h2{
+    position: relative;
+    top: 45%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.encima div{
+    position: relative;
+    display: block;
+    top: 46%;
+    width: 40px;
+    height: 5px;
+    background: #fff;
+    margin: auto;
+}
+
+.cards{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    border-radius: 10px;
+    margin: 20px 0;
+    width: 30%;
+    height: 250px;
+    text-align: center;
+    padding: 20px;
+    background: hsla(207, 82%, 31%);
+    box-shadow: 0 0 4px 0  #34495ecc;
+} 
+
+.card h4{
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.card p{
+    color: rgb(255, 255, 255);
+}
+
+.fondo{
+    height: 470px;
+    position: relative;
+    background: -webkit-linear-gradient(to right, hsla(207, 82%, 31%, 0.603), hsla(0, 0%, 0%, 0.603)),  url(../img/eftakher-alam-i1VQZsU86ok-unsplash.jpg);
+    background: linear-gradient(to right, hsla(207, 82%, 31%, 0.603), hsla(0, 0%, 0%, 0.603)), url(../img/eftakher-alam-i1VQZsU86ok-unsplash.jpg); 
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.titulo-patrocinadores, .subtitulo-patrocinadores{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.titulo-patrocinadores{
+    font-size: 56px;
+    margin-top: 48px;
+}
+
+.subtitulo-patrocinadores{
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 64px;
+}
+
+.clientes{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+    margin-left: 40px;
+    width: 100%;
+    justify-content: space-between;
+    filter: invert(100%);
+}
+
+.cliente{
+    width: 20%;
+}
+
+.cliente img{
+    width: 50%;
+}
+
+footer {
+    background: #2c3e50;
+    height: auto;  
+    padding: 50px; 
+}
+
+.titulo-footer, .subtitulo-footer{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 400;
+}
+
+.subtitulo-footer{
+    font-size: 16px;
+    margin-bottom: 64px;
+}
+
+form{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+input[type="text"], input[type="email"]{
+    display: inline-block;
+    width: 48%;
+    padding: 13px;
+    border:none;
+    color: #fff;
+    font-family: 'open sans';
+    background: rgba(37, 37, 33, .7);
+    margin-bottom: 16px;
+    border-top: 1px solid rgba(37, 37, 33, .7);
+    border-radius: 5px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus{
+    border-top: 3px solid rgba(253, 253, 253, 0.7);
+}
+
+textarea{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    background: rgba(37, 37, 33, .7);
+    padding: 13px;
+    border:none;
+    color: #fff;
+    font-family: 'open sans';
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+input[type="submit"]{
+    display: inline-block;
+    padding: 13px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background: rgba(37, 37, 33, .7);
+    width: 96px;
+    border-radius: 5px;
+}
+
+.close{
+    color: #f2f2f2;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.close:hover{
+    color: #7f8c8d;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header, .modal-footer{
+    padding: 8px 16px;
+    background: #34495e;
+    color: #f2f2f2;
+}
+
+.modal-body p{
+    text-align: justify;
+}
+
+.modal-body{
+    padding: 20px 16px;
+}
+.equipo1{
+    height: 140px;
+    width: 140px;
+    background: url(../img/IMG-20201111-WA0004.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin: auto;
+    background-position-y: -30px;
+}
+.equipo2{
+    height: 140px;
+    width: 140px;
+    background: url(../img/photo_2021-02-11_15-23-38.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin: auto;
+    background-position-y: -40px;
+}
+
+.equipo3{
+    height: 140px;
+    width: 140px;
+    background: url(../img/photo_2021-02-11_15-40-36.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin: auto;
+    background-position-y: -10px;
+}
+
+header::before {
+    content: "";
+    display: block;
+    margin-bottom: 80px;
+
+}
+
+
+nav {
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid transparent;
+    box-shadow: 1px 5px 20px 0 rgba(0, 0, 0, 0.671);
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    position: fixed;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.nav .logo {
+    height: 80px;
+}
+
+.nav .logo img {
+    height: 100%;
+    vertical-align: top;
+}
+
+.enlaces-header {
+    font-weight: 300px;
+}
+
+.nav .enlaces-header a {
+    color:  hsla(207, 82%, 50%);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.nav .enlaces-header>a:hover {
+    color: #fff;
+    transition: color 0.5s;
+    transition: ease-in 0.2s;
+}
+@media only screen and (max-width: 600px) {
+    h1.titulo, h2.sobre-nosotros, h2.titulo-footer, h2.titulo-patrocinadores{
+        font-size: 3em;
+    }
+    h3.subtitulo, h3.slogan{
+        font-size: 1.5em;
+    }
+    header#inicio{
+        height: 70vh;
+    }
+    .cards{
+  
+        display: inline-block;
+
+    }
+    .card{
+    margin: 20px auto;
+        width: 90%;
+    } 
+    .nav .logo {
+        height: 40px;
+    }
+    .enlaces-header{
+        font-size: 12px;
+    }
+  
+  }
+
+
+
+
+
+
